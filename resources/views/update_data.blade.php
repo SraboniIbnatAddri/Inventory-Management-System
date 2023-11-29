@@ -28,8 +28,7 @@
             <form action="{{url('/store-update-data')}}" method="post">
                 @csrf
                 <div class="form-group">
-                    <label for="">Id</label>
-                    <input type ="text" class="form control my-3" name="id" value= "{{$updateData->id}}"placeholder="please enter name">
+                    <input type ="hidden" class="form control my-3" name="id" value= "{{$updateData->id}}"placeholder="Do not update this">
                 </div>
                 <div class="form-group">
                     <label for="">Name</label>
