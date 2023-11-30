@@ -2,7 +2,7 @@ Project setup:
 1. git clone https://github.com/SraboniIbnatAddri/Inventory-Management-System.git
 2. Create a .env file and paste from .env.example file
 3. Create a mysql database inventory.
-4. Update .env file database name.
+4. Update .env file database name as Inventory.
 5. php artisan migrate
 6. php artisan serve
 After that you can easily create, update view and delete products. 
